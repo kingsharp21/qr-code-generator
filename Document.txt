@@ -1,0 +1,4 @@
+- the code images generated are store in the "./qrcodes" folder.
+- labries used {npm install qrcode}
+- run app {node qrCode.js}
+- 

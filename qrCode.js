@@ -26,7 +26,7 @@ const generateQRCode = async (data, filename) => {
 
 // Generate QR codes in a loop
 for (let i = 1; i <= numberOfCodes; i++) {
-  const data = `https://drive.google.com/file/d/1tRrbigyd6TXI9IR_Lom67dkZVYVq6FjB/view`;
+  const data = `https://drive.google.com/file/d/1tRrbigyd6TXI9IR_Lom67dkZVYVq6FjB/view`; // replace this with your website. 
   const filename = `qrcode${i}.png`;
   generateQRCode(data, filename);
 }
